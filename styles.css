@@ -1,3 +1,40 @@
-body{
-  color:red;
+
+@media (min-width: 1400px){
+  .side{
+    display: inline-block;
+  }
+  .left{
+    display: inline;
+  }
 }
+
+h2{
+  padding:10px;
+  border: 1px black solid;
+}
+
+table{
+  margin:10px;
+}
+
+footer{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Impact';
+}
+
+#contact{
+  color: white;
+  background-image: url("image/ai_background.jpg");
+}
+
+.explain{
+  font-weight: bold;
+}
+
+a:visited{
+  color:purple;
+}
+
